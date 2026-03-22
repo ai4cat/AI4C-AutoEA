@@ -1,6 +1,8 @@
-# **MatDataMiner**
+# **AutoEchemAnalyzer**
 
-**MatDataMiner** is a modular and extensible repository designed for **text mining and information extraction in materials science**.  
+**AutoEchemAnalyzer** is a Python-based desktop application built with PySide6, designed for efficient processing and analysis of electrochemical measurement data.
+
+**AutoEchemAnalyzer** is a modular and extensible repository designed for **text mining and information extraction in materials science**.  
 The repository hosts a collection of text-mining codes tailored to different materials-science topics, with the goal of systematically transforming unstructured scientific literature into structured, machine-readable data.
 
 ## **Overview**
@@ -50,8 +52,8 @@ MatDataMiner/
 
 ## **License**
 
-**MatDataMiner** is released under the **Apache License 2.0**.
+**AutoEchemAnalyzer** is released under the **Apache License 2.0**.
 
 This license permits use, modification, distribution, and commercial application of the code, while providing explicit patent protection for both contributors and users. It is particularly suitable for research-oriented software and AI-driven data-mining workflows.
 
-For the full license text, please refer to the [Apache-2.0 license](https://github.com/yichun77/MatDataMiner/blob/main/LICENSE) file.
+For the full license text, please refer to the [Apache-2.0 license](https://github.com/ai4cat/AI4C-AutoEA/blob/main/LICENSE) file.
