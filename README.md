@@ -2,52 +2,53 @@
 
 **AutoEchemAnalyzer** is a Python-based desktop application built with PySide6, designed for efficient processing and analysis of electrochemical measurement data.
 
-**AutoEchemAnalyzer** is a modular and extensible repository designed for **text mining and information extraction in materials science**.  
-The repository hosts a collection of text-mining codes tailored to different materials-science topics, with the goal of systematically transforming unstructured scientific literature into structured, machine-readable data.
+It provides:
 
-## **Overview**
+- Batch data processing
+- Automatic extraction of key electrochemical metrics
+- Interactive visualization
+- Custom labeling and plotting
+- GUI-based workflow (no coding required)
 
-Modern materials research generates an enormous volume of textual data in the form of scientific papers, reports, and supplementary information. However, much of this knowledge remains locked in unstructured formats, limiting its direct use in data-driven modeling and machine-learning workflows.
+This tool is particularly suitable for electrocatalysis research, including systems such as ORR, HER, and OER.
 
-**MatDataMiner** aims to address this challenge by providing a unified framework for **materials-oriented literature mining**, enabling automated extraction of key information such as material compositions, synthesis conditions, structures, properties, and performance metrics from published papers.
+## **Installation**
 
-## **Key Features**
+### Development Environment
+- Python 3.12
+- Validated on Windows OS
+- Use `conda env create -f autoea.yml` to create the enviornment.
 
-- **Topic-oriented text-mining pipelines**  
-  Each submodule is designed for a specific materials-science task (e.g., catalysis, energy materials, functional oxides), allowing flexible extension to new research domains.
+### Setup
+To set up the codes, run the following commands:
 
-- **PDF-based literature corpus**  
-  The repository supports curated paper libraries in **PDF format**, serving as the primary data source for large-scale literature analysis.
-
-- **Large Language Model (LLM)–assisted extraction**  
-  Text mining is powered by existing large language models, with a current focus on **Google Gemini**, to enable semantic-level understanding beyond traditional rule-based or keyword-based methods.
-
-- **Prompt-engineering-driven workflows**  
-  Carefully designed **prompt-engineering strategies** are used to guide LLMs in performing structured information extraction, entity recognition, and relation parsing tailored to materials-science contexts.
-
-## **Design Philosophy**
-
-Rather than training domain-specific models from scratch, **MatDataMiner** emphasizes the effective utilization of **state-of-the-art general LLMs** through domain-aware prompts and task-specific pipelines. This approach enables rapid adaptation to emerging research topics while maintaining high interpretability and reproducibility.
-
-
-## **Intended Applications**
-
-- Construction of **materials databases** for data-driven discovery  
-- Automated curation of literature for **machine-learning and AI models**  
-- Large-scale meta-analysis of published experimental and computational results  
-- Integration with downstream workflows such as catalyst screening and materials informatics
-
+```bash
+git clone https://github.com/ai4cat/AI4C-AutoEA.git
+cd AI4C-AutoEA
+```
 
 ## **Repository Structure**
 
-( to be modified... not comfirmed...)
 ```text
-MatDataMiner/
-├── ORR/               # PDF literature collections
-├── prompts/           # Prompt templates for LLM-based extraction
-├── pipelines/         # Task-specific text-mining workflows
-├── utils/             # Common utilities (PDF parsing, cleaning, logging)
-└── examples/          # Demonstration scripts and notebooks
+code/
+└── src/              
+config/
+data/
+```
+
+## Contributing
+Contributions are welcome! Please follow the standard fork-and-pull request workflow on GitHub.
+
+If you use our code in your research, please cite our paper:
+```bash
+@article{,
+  title={s},
+  author={},
+  journal={},
+  year={},
+  volume = {},
+  pages = {}
+}
 ```
 
 ## **License**
