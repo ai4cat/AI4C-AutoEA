@@ -1,0 +1,35 @@
+# Default parameter settings
+
+# General Parameters
+test_options0=UOR
+RE_options0=Hg/HgO
+iR_options0=Auto
+softw_options0=EC-lab
+inputs_percentage=100
+inputs_area=1
+inputs_pH=14
+
+
+# ORR Parameters
+orr_RE_options0=Ag/AgCl
+orr_inputs_area=0.2475
+orr_inputs_pH=13
+
+
+# File Tags
+oer_tags=["02_LSV","04_LSV","05_LSV","06_LSV"]
+her_tags=["07_LSV","08_LSV","09_LSV"]
+
+
+
+# Test type dropdown options ["UOR", "OER", "HER", "ORR"]
+# Reference Electrode options ["Ag/AgCl", "Hg/HgO"]
+# IR Compensation method options["Manual", "Auto"]
+# Files generation software options["CHI760e", "EC-lab", "DHElecChem"]
+# Compensation percentage % - Default 100%, Auto compensation doesn't require input
+# Electrode active area - Default 1cm^2, ORR 0.2475cm^2
+# Solution pH - Default 14, ORR 13
+# ORR parameters only take effect when ORR test is selected
+# UOR/OER file classification method - Based on TXT filename
+# HER file classification method - Based on TXT filename
+# Author - Kai Wu
