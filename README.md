@@ -53,8 +53,4 @@ If you use our code in your research, please cite our paper:
 
 ## **License**
 
-**AutoEchemAnalyzer** is released under the **Apache License 2.0**.
-
-This license permits use, modification, distribution, and commercial application of the code, while providing explicit patent protection for both contributors and users. It is particularly suitable for research-oriented software and AI-driven data-mining workflows.
-
-For the full license text, please refer to the [Apache-2.0 license](https://github.com/ai4cat/AI4C-AutoEA/blob/main/LICENSE) file.
+This project is licensed under the [CC-BY-ND-NC License](https://github.com/ai4cat/AI4C-AutoEA/blob/main/LICENSE). Please see the LICENSE file for more details.
